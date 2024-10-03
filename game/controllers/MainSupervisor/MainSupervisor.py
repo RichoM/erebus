@@ -526,7 +526,7 @@ class Erebus(Supervisor):
                               f"{nearby_issue.simple_victim_type.lower()}")
             
             if self.count_walls(grid) == 3:
-                self.robot_obj.increase_score(f"{name} surrounded by 3 walls", -15)
+                self.robot_obj.increase_score(f"{name} surrounded by 3 walls", -30)
             else:
                 # Update score and history
                 if est_vic_type.lower() == nearby_issue.simple_victim_type.lower():
