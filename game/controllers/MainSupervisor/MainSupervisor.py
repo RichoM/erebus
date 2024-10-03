@@ -524,20 +524,23 @@ class Erebus(Supervisor):
 
             Console.log_debug(f"Victim type est. {est_vic_type.lower()} vs "
                               f"{nearby_issue.simple_victim_type.lower()}")
+            
+            if self.count_walls(grid) == 3:
+                self.robot_obj.increase_score(f"{name} surrounded by 3 walls", -15)
+            else:
+                # Update score and history
+                if est_vic_type.lower() == nearby_issue.simple_victim_type.lower():
+                    self.robot_obj.increase_score(
+                        f"Successful {name} Type Correct Bonus",
+                        correct_type_bonus,
+                        multiplier=self.tile_manager.ROOM_MULT[room_num]
+                    )
 
-            # Update score and history
-            if est_vic_type.lower() == nearby_issue.simple_victim_type.lower():
                 self.robot_obj.increase_score(
-                    f"Successful {name} Type Correct Bonus",
-                    correct_type_bonus,
+                    f"Successful {name} Identification",
+                    nearby_issue.score_worth,
                     multiplier=self.tile_manager.ROOM_MULT[room_num]
                 )
-
-            self.robot_obj.increase_score(
-                f"Successful {name} Identification",
-                nearby_issue.score_worth,
-                multiplier=self.tile_manager.ROOM_MULT[room_num]
-            )
 
             self.robot_obj.victim_identified = True
             nearby_issue.identified = True
@@ -545,6 +548,39 @@ class Erebus(Supervisor):
         if misidentification:
             self.robot_obj.increase_score(f"Misidentification of {name}",
                                           -5)
+            
+    def count_walls(self, grid : int) -> int:
+        tile = self.getFromDef("WALLTILES").getField("children").getMFNode(grid)  # type: ignore
+        neighbours = TileManager.get_neighbours(tile, self)
+        
+        right_wall = tile.getField("rightWall").getSFInt32() > 0
+        if neighbours["right"] is not None:
+            right_wall = right_wall or neighbours["right"].getField("leftWall").getSFInt32() > 0
+
+        left_wall = tile.getField("leftWall").getSFInt32() > 0
+        if neighbours["left"] is not None:
+            left_wall = left_wall or neighbours["left"].getField("rightWall").getSFInt32() > 0
+
+        top_wall = tile.getField("topWall").getSFInt32() > 0
+        if neighbours["top"] is not None:
+            top_wall = top_wall or neighbours["top"].getField("bottomWall").getSFInt32() > 0
+            
+        bottom_wall = tile.getField("bottomWall").getSFInt32() > 0
+        if neighbours["bottom"] is not None:
+            bottom_wall = bottom_wall or neighbours["bottom"].getField("topWall").getSFInt32() > 0
+    
+        wall_count = 0
+        if right_wall: wall_count += 1
+        if left_wall: wall_count += 1
+        if top_wall: wall_count += 1
+        if bottom_wall: wall_count += 1
+        
+        Console.log_debug(f"ACAACA -> wall_count: {wall_count}")
+        Console.log_debug(f"Right wall: {right_wall}")
+        Console.log_debug(f"Left wall: {left_wall}")
+        Console.log_debug(f"Top wall: {top_wall}")
+        Console.log_debug(f"Bottom wall: {bottom_wall}")
+        return wall_count
 
     def _process_message(self, robot_message: list[Any]) -> None:
         """Processes the messages recieved from the competitor's robot's emitter

@@ -295,6 +295,38 @@ class TileManager(ErebusObject):
             round((coord[0] + (width / 2 * side)) / side, 0) * height +
             round((coord[2] + (height / 2 * side)) / side, 0)
         )
+    
+    @staticmethod
+    def tile2grid(x : int, z : int, width : float, height : float):
+        if x < 0 or x >= width: return -1
+        if z < 0 or z >= height: return -1
+        return int(x * height + z)
+    
+    @staticmethod
+    def get_neighbours(tile, supervisor):
+        xPos = tile.getField("xPos").getSFInt32()
+        zPos = tile.getField("zPos").getSFInt32()
+        width: float = (
+            supervisor.getFromDef("START_TILE")
+            .getField("width")
+            .getSFFloat()
+        )
+        height: float = (
+            supervisor.getFromDef("START_TILE")
+            .getField("height")
+            .getSFFloat()
+        )
+        all_tiles = supervisor.getFromDef("WALLTILES").getField("children")
+        top = TileManager.tile2grid(xPos, zPos - 1, width, height)
+        bottom = TileManager.tile2grid(xPos, zPos + 1, width, height)
+        left = TileManager.tile2grid(xPos - 1, zPos, width, height)
+        right = TileManager.tile2grid(xPos + 1, zPos, width, height)
+        return {
+            "top": all_tiles.getMFNode(top) if top >= 0 else None,
+            "bottom": all_tiles.getMFNode(bottom) if bottom >= 0 else None,
+            "left": all_tiles.getMFNode(left) if left >= 0 else None,
+            "right": all_tiles.getMFNode(right) if right >= 0 else None
+        }
         
     def check_swamps(self) -> None: 
         """Check if the simulation robot is in any swamps. Slows down the robot
