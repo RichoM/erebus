@@ -420,12 +420,17 @@ class MapAnswer:
                         row_temp = zCount+1
                         col_temp = 2*xCount + 1 + xShift
 
-                # Concatenate if victims on either side of the wall
-                if self.answerMatrix[row_temp][col_temp] != '*':
-                    if type(self.answerMatrix[row_temp][col_temp]) == str:
-                        self.answerMatrix[row_temp][col_temp] += victimType
-                    else:
-                        self.answerMatrix[row_temp][col_temp] = victimType
+                # Count walls and avoid adding the victim to the map if surrounded
+                grid: int = self.supervisor.tile_manager.coord2grid(victim.getField("translation").getSFVec3f(), self.supervisor)
+                is_corner = self.supervisor.is_corner(grid)
+                
+                if not is_corner:
+                    # Concatenate if victims on either side of the wall
+                    if self.answerMatrix[row_temp][col_temp] != '*':
+                        if type(self.answerMatrix[row_temp][col_temp]) == str:
+                            self.answerMatrix[row_temp][col_temp] += victimType
+                        else:
+                            self.answerMatrix[row_temp][col_temp] = victimType
                     
             
             for i in range(len(self.answerMatrix)):
