@@ -780,5 +780,9 @@ class Sign:
         return {
             "type": self.type,
             "translation": self.translation,
-            "rotation": self.rotation
+            "rotation": self.rotation,
+
+            # NOTE(Richo): These are not really needed, I just write them for debugging purposes
+            "rotation_quaternion": self.get_rotation_quaternion(),
+            "rotation_euler": self.get_rotation_euler()
         }

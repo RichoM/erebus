@@ -146,6 +146,14 @@ class Erebus(Supervisor):
             raise Exception("Critical error: Could not generate answer matrix")
         self._map_sol: list[list] = map_ans
 
+        if False: # HACK(Richo): Write the map and the expected solution to disk (just for testing)
+            self._map_ans.writeJSON(self._get_current_world() + "_map.json")
+            with open(f"{self._get_current_world()}_expected.txt", "w") as f:
+                for row in self._map_sol:
+                    for col in row:
+                        f.write(col)
+                    f.write("\n")
+
         # Init test runner to run (unit) tests
         self._test_runner: TestRunner = TestRunner(self)
         self._run_tests: bool = False
