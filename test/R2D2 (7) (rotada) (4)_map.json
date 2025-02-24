@@ -1,0 +1,6170 @@
+{
+    "tiles": [
+        {
+            "xPos": 0,
+            "zPos": 0,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 0,
+            "leftWall": 1,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 1,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 0,
+            "zPos": 1,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 5,
+            "leftWall": 3,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 0,
+            "zPos": 2,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 2,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                3,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 0,
+            "zPos": 3,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 1,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 0,
+            "zPos": 4,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 1,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 0,
+            "zPos": 5,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 1,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                3,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 0,
+            "zPos": 6,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 1,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                2,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 0,
+            "zPos": 7,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                125,
+                3
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                27,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                6,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 1,
+            "zPos": 0,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 1,
+            "zPos": 1,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 1,
+            "zPos": 2,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                5,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 1,
+            "zPos": 3,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 3,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 1,
+            "zPos": 4,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 2,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 1,
+            "zPos": 5,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                3,
+                3,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 1,
+            "zPos": 6,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                2,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                1,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 1,
+            "zPos": 7,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 5,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 2,
+            "zPos": 0,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 3,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 2,
+            "zPos": 1,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 2,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 2,
+            "zPos": 2,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 3,
+            "leftWall": 0,
+            "rightWall": 3,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 2,
+            "zPos": 3,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 6,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 2,
+            "zPos": 4,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 2,
+            "zPos": 5,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 3,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                3,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 2,
+            "zPos": 6,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 2,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 2,
+            "zPos": 7,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 1,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 3,
+            "zPos": 0,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 2,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 3,
+            "zPos": 1,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 1,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 3,
+            "zPos": 2,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 2,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 1,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 3,
+            "zPos": 3,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 5,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 3,
+            "zPos": 4,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 3,
+            "zPos": 5,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 2,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 3,
+            "zPos": 6,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 3,
+            "zPos": 7,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 1,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 4,
+            "zPos": 0,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                1,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 4,
+            "zPos": 1,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 1,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 4,
+            "zPos": 2,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 1,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 4,
+            "zPos": 3,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 3,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 4,
+            "zPos": 4,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 2,
+            "trap": 1,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 4,
+            "zPos": 5,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 4,
+            "zPos": 6,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 1,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 1,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 4,
+            "zPos": 7,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 1,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 5,
+            "zPos": 0,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                2187,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                78125,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 5,
+            "zPos": 1,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                2187,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                15,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 5,
+            "zPos": 2,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 3,
+            "leftWall": 0,
+            "rightWall": 6,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 5,
+            "zPos": 3,
+            "room": 1,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 6,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.1,
+                0.1,
+                0.9
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 5,
+            "zPos": 4,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 2,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 5,
+            "zPos": 5,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 3,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 5,
+            "zPos": 6,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                2,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 5,
+            "zPos": 7,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 3,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                6,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 6,
+            "zPos": 0,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 1,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 6,
+            "zPos": 1,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 6,
+            "zPos": 2,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 3,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.1,
+                0.1,
+                0.9
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 6,
+            "zPos": 3,
+            "room": 1,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 1,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 6,
+            "zPos": 4,
+            "room": 1,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 2,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.1,
+                0.1,
+                0.9
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 6,
+            "zPos": 5,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 5,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 1,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 6,
+            "zPos": 6,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 6,
+            "zPos": 7,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                125,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                1,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 7,
+            "zPos": 0,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 7,
+            "zPos": 1,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                6,
+                170859375,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                128,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 7,
+            "zPos": 2,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 5,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                2187,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                78125,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 7,
+            "zPos": 3,
+            "room": 1,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 5,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.1,
+                0.1,
+                0.9
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 7,
+            "zPos": 4,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 7,
+            "zPos": 5,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 3,
+            "leftWall": 0,
+            "rightWall": 6,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 7,
+            "zPos": 6,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 7,
+            "zPos": 7,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                1,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                1,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 8,
+            "zPos": 0,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 5,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 8,
+            "zPos": 1,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 8,
+            "zPos": 2,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                2187,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                279936,
+                2,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 8,
+            "zPos": 3,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                1,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 8,
+            "zPos": 4,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 5,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 8,
+            "zPos": 5,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 8,
+            "zPos": 6,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 8,
+            "zPos": 7,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                1,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                1,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 9,
+            "zPos": 0,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                3,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 9,
+            "zPos": 1,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 2,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 9,
+            "zPos": 2,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                1,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 9,
+            "zPos": 3,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                3,
+                3,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 9,
+            "zPos": 4,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 1,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                2,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 9,
+            "zPos": 5,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 9,
+            "zPos": 6,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 9,
+            "zPos": 7,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                1,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                1,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 10,
+            "zPos": 0,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                4,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 10,
+            "zPos": 1,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                46656,
+                729,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 10,
+            "zPos": 2,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 1,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 10,
+            "zPos": 3,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 1,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                2,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 10,
+            "zPos": 4,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 1,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 10,
+            "zPos": 5,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 10,
+            "zPos": 6,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 10,
+            "zPos": 7,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                1,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                3,
+                27,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 11,
+            "zPos": 0,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                15,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 11,
+            "zPos": 1,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                1296,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                6,
+                50625,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 11,
+            "zPos": 2,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                2,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 11,
+            "zPos": 3,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                64,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 11,
+            "zPos": 4,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 11,
+            "zPos": 5,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 11,
+            "zPos": 6,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 11,
+            "zPos": 7,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                8,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                1,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 12,
+            "zPos": 0,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 3,
+            "bottomWall": 6,
+            "leftWall": 0,
+            "rightWall": 6,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 12,
+            "zPos": 1,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 2,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 12,
+            "zPos": 2,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 1,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 12,
+            "zPos": 3,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 3,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                729,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                15625,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                15,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 12,
+            "zPos": 4,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                8,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 12,
+            "zPos": 5,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 12,
+            "zPos": 6,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "xPos": 12,
+            "zPos": 7,
+            "room": 2,
+            "width": 13.0,
+            "height": 8.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "halfTile",
+            "tile1Walls": [
+                0,
+                27,
+                27,
+                0
+            ],
+            "tile2Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile3Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "tile4Walls": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "curve": [
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "victims": [
+        {
+            "type": "harmed",
+            "translation": [
+                -0.81,
+                0.0,
+                -0.2944
+            ],
+            "rotation": [
+                0.9993905105300254,
+                0.03489948565045921,
+                0.0007958416103244512,
+                3.1415370707869554
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                -0.75,
+                0.0,
+                -0.2944
+            ],
+            "rotation": [
+                0.0,
+                1.0,
+                0.0,
+                3.14
+            ]
+        },
+        {
+            "type": "stable",
+            "translation": [
+                -0.75,
+                0.0,
+                0.1744000000000001
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                -1.0,
+                5.585053606381855
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                -0.7256,
+                0.0,
+                0.21
+            ],
+            "rotation": [
+                -0.1710838787644733,
+                0.9702648912666378,
+                -0.17122017171537504,
+                1.6001819308424812
+            ]
+        },
+        {
+            "type": "unharmed",
+            "translation": [
+                -0.8344,
+                0.0,
+                0.33000000000000007
+            ],
+            "rotation": [
+                -0.49274566196727876,
+                -0.7169493870015717,
+                0.49313820485792714,
+                1.896816273551071
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                -0.75,
+                0.0,
+                0.3544000000000001
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                1.0,
+                3.5779249665883763
+            ]
+        },
+        {
+            "type": "stable",
+            "translation": [
+                -0.6056,
+                0.0,
+                0.1500000000000001
+            ],
+            "rotation": [
+                -0.3892346149600593,
+                -0.834716325483721,
+                -0.38954469639291617,
+                4.533484041497247
+            ]
+        },
+        {
+            "type": "unharmed",
+            "translation": [
+                -0.6056,
+                0.0,
+                0.21
+            ],
+            "rotation": [
+                -0.3767213226178676,
+                0.8461299441135646,
+                -0.37702143541106586,
+                1.7363212580660843
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                -0.5700000000000001,
+                0.0,
+                -0.4144
+            ],
+            "rotation": [
+                0.29237169679847436,
+                0.956304730043941,
+                0.00023282346544394112,
+                3.1400695914010326
+            ]
+        },
+        {
+            "type": "stable",
+            "translation": [
+                -0.51,
+                0.0,
+                0.1856
+            ],
+            "rotation": [
+                -0.7489555875838086,
+                0.6626199303657374,
+                -0.0005964135286496561,
+                3.140537329453898
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                -0.20999999999999994,
+                0.0,
+                -0.5344
+            ],
+            "rotation": [
+                0.615661401334691,
+                0.7880106589026026,
+                0.0004902677740985899,
+                3.140337625484543
+            ]
+        },
+        {
+            "type": "unharmed",
+            "translation": [
+                -0.23439999999999994,
+                0.0,
+                0.03
+            ],
+            "rotation": [
+                -0.3767213226178678,
+                0.8461299441135645,
+                0.3770214354110659,
+                4.546864049113502
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                -0.005600000000000049,
+                0.0,
+                -0.32999999999999996
+            ],
+            "rotation": [
+                0.4831302990805143,
+                0.7299302589525338,
+                0.48351518194970833,
+                1.87976960855824
+            ]
+        },
+        {
+            "type": "stable",
+            "translation": [
+                0.05440000000000005,
+                0.0,
+                -0.32999999999999996
+            ],
+            "rotation": [
+                0.573811324461977,
+                0.5839146459436347,
+                0.5742684478288106,
+                2.083882874190424
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                0.32999999999999985,
+                0.0,
+                -0.4144
+            ],
+            "rotation": [
+                0.0,
+                1.0,
+                0.0,
+                3.14
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                0.32999999999999985,
+                0.0,
+                -0.054400000000000004
+            ],
+            "rotation": [
+                0.0,
+                1.0,
+                0.0,
+                3.14
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                0.3543999999999998,
+                0.0,
+                -0.03
+            ],
+            "rotation": [
+                0.008726202714386658,
+                -0.9999237897962817,
+                0.008733154391696639,
+                4.713109094093649
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                0.51,
+                0.0,
+                -0.1744
+            ],
+            "rotation": [
+                0.5735763765199879,
+                -0.8191519588413857,
+                0.0004567543340907245,
+                3.142897278988354
+            ]
+        },
+        {
+            "type": "stable",
+            "translation": [
+                0.7143999999999999,
+                0.0,
+                -0.32999999999999996
+            ],
+            "rotation": [
+                0.6989804539718322,
+                0.1485728819708039,
+                0.6995372925786164,
+                2.8463731670480836
+            ]
+        },
+        {
+            "type": "unharmed",
+            "translation": [
+                0.7143999999999999,
+                0.0,
+                -0.15
+            ],
+            "rotation": [
+                0.6581151832110014,
+                -0.3647992029523553,
+                0.6586394667437387,
+                3.841700877274727
+            ]
+        },
+        {
+            "type": "unharmed",
+            "translation": [
+                0.6543999999999999,
+                0.0,
+                0.21
+            ],
+            "rotation": [
+                0.7057340728911996,
+                -0.05554247610082705,
+                0.7062962917281869,
+                3.252651808424773
+            ]
+        },
+        {
+            "type": "unharmed",
+            "translation": [
+                0.6299999999999999,
+                0.0,
+                0.3544000000000001
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                1.0,
+                5.585053606381855
+            ]
+        }
+    ],
+    "hazards": [
+        {
+            "type": "C",
+            "translation": [
+                -0.75,
+                0.0,
+                0.1856
+            ],
+            "rotation": [
+                -0.08715574253774443,
+                0.9961946956924205,
+                -6.940446778254446e-05,
+                3.1400060605290183
+            ]
+        },
+        {
+            "type": "F",
+            "translation": [
+                -0.63,
+                0.0,
+                0.1744000000000001
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                -0.9999999999999998,
+                5.148721293383272
+            ]
+        },
+        {
+            "type": "F",
+            "translation": [
+                -0.7144,
+                0.0,
+                0.21
+            ],
+            "rotation": [
+                0.21153383426871336,
+                -0.9541674650481257,
+                -0.21170235143524155,
+                1.6168997419621491
+            ]
+        },
+        {
+            "type": "O",
+            "translation": [
+                -0.63,
+                0.0,
+                0.1856
+            ],
+            "rotation": [
+                -0.30901698501873825,
+                0.9510564874997027,
+                -0.0002460785572643587,
+                3.1400779500303067
+            ]
+        },
+        {
+            "type": "P",
+            "translation": [
+                -0.63,
+                0.0,
+                0.2944
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                -1.0,
+                1.5533430342749535
+            ]
+        },
+        {
+            "type": "F",
+            "translation": [
+                -0.7144,
+                0.0,
+                0.3900000000000001
+            ],
+            "rotation": [
+                0.6633458704446467,
+                0.3453160032730511,
+                -0.6638743209731494,
+                3.807076012897647
+            ]
+        },
+        {
+            "type": "O",
+            "translation": [
+                -0.51,
+                0.0,
+                -0.5344
+            ],
+            "rotation": [
+                0.061048539462716454,
+                0.9981347972423814,
+                4.8614598039556223e-05,
+                3.1400029706206154
+            ]
+        },
+        {
+            "type": "O",
+            "translation": [
+                -0.51,
+                0.0,
+                -0.4256
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                1.0,
+                1.7104226669544431
+            ]
+        },
+        {
+            "type": "F",
+            "translation": [
+                -0.48560000000000003,
+                0.0,
+                -0.27
+            ],
+            "rotation": [
+                0.7024371253946811,
+                -0.11125511096881263,
+                0.7029967177381231,
+                3.3633666714344495
+            ]
+        },
+        {
+            "type": "P",
+            "translation": [
+                -0.5944,
+                0.0,
+                0.1500000000000001
+            ],
+            "rotation": [
+                -0.6107191209647425,
+                0.503437992925714,
+                0.6112056467073753,
+                4.075020920372742
+            ]
+        },
+        {
+            "type": "O",
+            "translation": [
+                -0.51,
+                0.0,
+                0.1744000000000001
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                1.0000000000001026,
+                6.265732014659648
+            ]
+        },
+        {
+            "type": "F",
+            "translation": [
+                -0.48560000000000003,
+                0.0,
+                0.27
+            ],
+            "rotation": [
+                -0.7037846120544162,
+                0.09265500194054045,
+                -0.7043452778650633,
+                2.9566638586217486
+            ]
+        },
+        {
+            "type": "P",
+            "translation": [
+                -0.39,
+                0.0,
+                -0.06559999999999999
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.9999999999999999,
+                4.817108735504349
+            ]
+        },
+        {
+            "type": "O",
+            "translation": [
+                -0.45000000000000007,
+                0.0,
+                0.1856
+            ],
+            "rotation": [
+                -0.4694715299778215,
+                0.8829475311559228,
+                -0.00037385283778698463,
+                3.1401864239691846
+            ]
+        },
+        {
+            "type": "O",
+            "translation": [
+                -0.14999999999999994,
+                0.0,
+                -0.3056
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.9999999999999999,
+                0.7853981633974484
+            ]
+        },
+        {
+            "type": "C",
+            "translation": [
+                -0.17439999999999994,
+                0.0,
+                -0.32999999999999996
+            ],
+            "rotation": [
+                -0.42490814976668495,
+                -0.7991360026075472,
+                0.42524665030812764,
+                1.7923880809538788
+            ]
+        },
+        {
+            "type": "F",
+            "translation": [
+                -0.14999999999999994,
+                0.0,
+                -0.2944
+            ],
+            "rotation": [
+                0.9681473526532218,
+                -0.2503799296437264,
+                0.0007709618412909135,
+                3.1419914221625596
+            ]
+        },
+        {
+            "type": "C",
+            "translation": [
+                -0.12559999999999993,
+                0.0,
+                0.03
+            ],
+            "rotation": [
+                0.05226431391172383,
+                -0.9972625176399379,
+                0.05230594996546148,
+                4.710444072372882
+            ]
+        },
+        {
+            "type": "F",
+            "translation": [
+                -0.17439999999999994,
+                0.0,
+                0.03
+            ],
+            "rotation": [
+                0.0,
+                -1.0000000000000002,
+                0.0,
+                1.57
+            ]
+        },
+        {
+            "type": "F",
+            "translation": [
+                -0.05440000000000005,
+                0.0,
+                0.21039999999999998
+            ],
+            "rotation": [
+                0.602228997466282,
+                -0.5235096806258008,
+                -0.6027087596027031,
+                2.1763821272595774
+            ]
+        },
+        {
+            "type": "C",
+            "translation": [
+                0.09000000000000005,
+                0.0,
+                -0.3656
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                1.0,
+                1.361356816555577
+            ]
+        },
+        {
+            "type": "F",
+            "translation": [
+                0.09000000000000005,
+                0.0,
+                -0.24559999999999998
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                1.0,
+                4.468042885105484
+            ]
+        },
+        {
+            "type": "O",
+            "translation": [
+                0.06560000000000005,
+                0.0,
+                -0.2696
+            ],
+            "rotation": [
+                -0.6809247996238775,
+                0.26822341167785085,
+                0.6814672543013909,
+                3.66610174782876
+            ]
+        },
+        {
+            "type": "P",
+            "translation": [
+                0.005600000000000049,
+                0.0,
+                0.03
+            ],
+            "rotation": [
+                0.0,
+                -1.0000000000000002,
+                0.0,
+                1.57
+            ]
+        },
+        {
+            "type": "O",
+            "translation": [
+                0.09000000000000005,
+                0.0,
+                0.1744000000000001
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                -1.0000000000000744,
+                6.265732014659648
+            ]
+        },
+        {
+            "type": "P",
+            "translation": [
+                0.14999999999999994,
+                0.0,
+                -0.4144
+            ],
+            "rotation": [
+                0.8788168974590245,
+                0.47715864341394504,
+                0.0006998255911827728,
+                3.1408327050393963
+            ]
+        },
+        {
+            "type": "P",
+            "translation": [
+                0.36560000000000015,
+                0.0,
+                -0.32999999999999996
+            ],
+            "rotation": [
+                -0.677010242523984,
+                -0.287373798267388,
+                0.6775495786929477,
+                2.5815032343905004
+            ]
+        },
+        {
+            "type": "F",
+            "translation": [
+                0.48560000000000003,
+                0.0,
+                0.33000000000000007
+            ],
+            "rotation": [
+                1.2246467991473535e-16,
+                1.0000000000000002,
+                -1.2256224067105765e-16,
+                4.713185307179587
+            ]
+        },
+        {
+            "type": "O",
+            "translation": [
+                0.69,
+                0.0,
+                -0.5344
+            ],
+            "rotation": [
+                0.1045284629055301,
+                0.9945218919228996,
+                8.323883343594892e-05,
+                3.140008724724836
+            ]
+        },
+        {
+            "type": "C",
+            "translation": [
+                0.7143999999999999,
+                0.0,
+                -0.51
+            ],
+            "rotation": [
+                0.19551411689863868,
+                0.9609825863480214,
+                0.19566987205293784,
+                1.6097891056704343
+            ]
+        },
+        {
+            "type": "F",
+            "translation": [
+                0.6543999999999999,
+                0.0,
+                -0.39
+            ],
+            "rotation": [
+                0.6899001265118699,
+                0.21752467433665004,
+                0.6904497313299791,
+                2.712885681182221
+            ]
+        },
+        {
+            "type": "P",
+            "translation": [
+                0.6543999999999999,
+                0.0,
+                0.27
+            ],
+            "rotation": [
+                -0.7057340728911996,
+                0.055542476100827284,
+                -0.7062962917281869,
+                3.0305334987548127
+            ]
+        },
+        {
+            "type": "C",
+            "translation": [
+                0.6543999999999999,
+                0.0,
+                0.33000000000000007
+            ],
+            "rotation": [
+                0.0,
+                1.0000000000000002,
+                0.0,
+                1.57
+            ]
+        }
+    ]
+}

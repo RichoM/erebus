@@ -1,0 +1,245 @@
+{
+    "tiles": [
+        {
+            "xPos": 0,
+            "zPos": 0,
+            "room": 1,
+            "width": 3.0,
+            "height": 2.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 0,
+            "leftWall": 1,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 1,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 0,
+            "zPos": 1,
+            "room": 1,
+            "width": 3.0,
+            "height": 2.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 5,
+            "leftWall": 3,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 1,
+            "zPos": 0,
+            "room": 1,
+            "width": 3.0,
+            "height": 2.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 1,
+            "zPos": 1,
+            "room": 1,
+            "width": 3.0,
+            "height": 2.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 1,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 2,
+            "zPos": 0,
+            "room": 1,
+            "width": 3.0,
+            "height": 2.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 3,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 2,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 2,
+            "zPos": 1,
+            "room": 1,
+            "width": 3.0,
+            "height": 2.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 3,
+            "leftWall": 0,
+            "rightWall": 3,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        }
+    ],
+    "victims": [
+        {
+            "type": "harmed",
+            "translation": [
+                -0.06,
+                0.0,
+                -0.175
+            ],
+            "rotation": [
+                -0.9733375652209368,
+                -0.22937607407399965,
+                -0.0007750949475034448,
+                3.141957970290737
+            ],
+            "rotation_quaternion": [
+                -0.00018265834945627683,
+                -0.9733375489836841,
+                -0.22937607024753964,
+                -0.0007750949345732826
+            ],
+            "rotation_euler": [
+                -0.0015926535897931222,
+                0.46287337677415497,
+                -3.141592653589793
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                -0.06,
+                0.0,
+                0.05500000000000001
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                1.0,
+                4.603011412523097
+            ],
+            "rotation_quaternion": [
+                -0.6673980785886571,
+                0.0,
+                0.0,
+                0.7447011512655052
+            ],
+            "rotation_euler": [
+                -3.141592653589793,
+                -1.4614187589333048,
+                -3.141592653589793
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                0.06,
+                0.0,
+                -0.175
+            ],
+            "rotation": [
+                -0.3793138772257715,
+                -0.9252680105272184,
+                -0.0003020578679596136,
+                3.1430662850530977
+            ],
+            "rotation_quaternion": [
+                -0.0007368156649830098,
+                -0.379313774261513,
+                -0.9252677593644207,
+                -0.0003020577859663983
+            ],
+            "rotation_euler": [
+                3.14,
+                0.778109325810578,
+                1.3700147408274532e-17
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                0.06,
+                0.0,
+                0.05500000000000001
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                -0.9999999999999969,
+                5.979657448165219
+            ],
+            "rotation_quaternion": [
+                -0.9885059414872144,
+                0.0,
+                0.0,
+                -0.15118202156498545
+            ],
+            "rotation_euler": [
+                0.0,
+                0.3035278590143664,
+                0.0
+            ]
+        }
+    ],
+    "hazards": []
+}

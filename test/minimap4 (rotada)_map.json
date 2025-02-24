@@ -1,0 +1,149 @@
+{
+    "tiles": [
+        {
+            "xPos": 0,
+            "zPos": 0,
+            "room": 1,
+            "width": 2.0,
+            "height": 2.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 1,
+            "bottomWall": 0,
+            "leftWall": 1,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 1,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 0,
+            "zPos": 1,
+            "room": 1,
+            "width": 2.0,
+            "height": 2.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 5,
+            "leftWall": 3,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 1,
+            "zPos": 0,
+            "room": 1,
+            "width": 2.0,
+            "height": 2.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 3,
+            "bottomWall": 3,
+            "leftWall": 0,
+            "rightWall": 6,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 1,
+            "zPos": 1,
+            "room": 1,
+            "width": 2.0,
+            "height": 2.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 3,
+            "leftWall": 0,
+            "rightWall": 6,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        }
+    ],
+    "victims": [
+        {
+            "type": "harmed",
+            "translation": [
+                0.0,
+                0.0,
+                -0.06499999999999999
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                1.0,
+                4.0648219024449315
+            ],
+            "rotation_quaternion": [
+                -0.44539431589887174,
+                0.0,
+                0.0,
+                0.8953345203693288
+            ],
+            "rotation_euler": [
+                -3.141592653589793,
+                -0.9232292488551381,
+                -3.141592653589793
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                0.0,
+                0.0,
+                -0.05500000000000001
+            ],
+            "rotation": [
+                -0.2772334818118702,
+                -0.9608025540264442,
+                -0.0002207684966750388,
+                3.1431228792514063
+            ],
+            "rotation_quaternion": [
+                -0.0007651127561573353,
+                -0.27723340066596064,
+                -0.9608022728006823,
+                -0.00022076843205636306
+            ],
+            "rotation_euler": [
+                3.14,
+                0.5618270651328378,
+                1.7359365855993674e-17
+            ]
+        }
+    ],
+    "hazards": []
+}

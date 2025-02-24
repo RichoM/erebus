@@ -1,0 +1,576 @@
+{
+    "tiles": [
+        {
+            "xPos": 0,
+            "zPos": 0,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 3,
+            "bottomWall": 0,
+            "leftWall": 1,
+            "rightWall": 2,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 1,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 0,
+            "zPos": 1,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 1,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 0,
+            "zPos": 2,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 5,
+            "leftWall": 3,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 0,
+            "zPos": 3,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 5,
+            "leftWall": 6,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 1,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 1,
+            "zPos": 0,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 2,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 1,
+            "zPos": 1,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 3,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 1,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 1,
+            "zPos": 2,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 2,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 1,
+            "zPos": 3,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 1,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 2,
+            "zPos": 0,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 3,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 6,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 2,
+            "zPos": 1,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 2,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 2,
+            "zPos": 2,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 2,
+            "zPos": 3,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 1,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 3,
+            "zPos": 0,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 15,
+            "leftWall": 0,
+            "rightWall": 0,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 3,
+            "zPos": 1,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 0,
+            "leftWall": 0,
+            "rightWall": 2,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 3,
+            "zPos": 2,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 3,
+            "leftWall": 0,
+            "rightWall": 3,
+            "trap": 0,
+            "swamp": 0,
+            "checkpoint": 1,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        },
+        {
+            "xPos": 3,
+            "zPos": 3,
+            "room": 1,
+            "width": 4.0,
+            "height": 4.0,
+            "xScale": 0.4,
+            "zScale": 0.4,
+            "topWall": 0,
+            "bottomWall": 3,
+            "leftWall": 0,
+            "rightWall": 6,
+            "trap": 1,
+            "swamp": 0,
+            "checkpoint": 0,
+            "start": 0,
+            "tileColor": [
+                0.6,
+                0.6,
+                0.6
+            ],
+            "type": "worldTile"
+        }
+    ],
+    "victims": [
+        {
+            "type": "stable",
+            "translation": [
+                -0.24,
+                0.0,
+                -0.295
+            ],
+            "rotation": [
+                -0.29029928509288855,
+                -0.956935876448121,
+                -0.00023117314812388378,
+                3.1431167209757693
+            ],
+            "rotation_quaternion": [
+                -0.0007620336192364773,
+                -0.29029920080517024,
+                -0.9569355986040279,
+                -0.00023117308100330104
+            ],
+            "rotation_euler": [
+                3.14,
+                0.5890791691322039,
+                -2.5362517612410066e-17
+            ]
+        },
+        {
+            "type": "unharmed",
+            "translation": [
+                -0.12,
+                0.0,
+                -0.05500000000000001
+            ],
+            "rotation": [
+                0.9632896778838594,
+                -0.26846304782950176,
+                0.0007670935438935013,
+                3.142020222310511
+            ],
+            "rotation_quaternion": [
+                -0.00021378435873038487,
+                0.9632896558708829,
+                -0.2684630416946174,
+                0.0007670935263639745
+            ],
+            "rotation_euler": [
+                -0.0015926535897930838,
+                -0.5435944680291513,
+                -3.141592653589793
+            ]
+        },
+        {
+            "type": "harmed",
+            "translation": [
+                0.175,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                -0.5435950216607373,
+                0.6391697018702558,
+                -0.5440280733902904,
+                2.0034219385534473
+            ],
+            "rotation_quaternion": [
+                0.5388617847237491,
+                -0.4579212897727575,
+                0.5384328454110947,
+                -0.45828609003514664
+            ],
+            "rotation_euler": [
+                1.5699999999999996,
+                -1.4095343836731455,
+                -3.457262174847583e-16
+            ]
+        }
+    ],
+    "hazards": [
+        {
+            "type": "F",
+            "translation": [
+                -0.2944,
+                0.0,
+                -0.12
+            ],
+            "rotation": [
+                0.358994869517605,
+                0.8614174056979821,
+                -0.3592808606377415,
+                4.564550697816454
+            ],
+            "rotation_quaternion": [
+                -0.6529546916519564,
+                0.2719016265330064,
+                0.6524349332564429,
+                -0.2721182353409362
+            ],
+            "rotation_euler": [
+                -1.5700000000000005,
+                0.7897225966197395,
+                3.1538529911311094e-16
+            ]
+        },
+        {
+            "type": "C",
+            "translation": [
+                -0.1744,
+                0.0,
+                -0.24
+            ],
+            "rotation": [
+                0.6809004634324786,
+                0.2683470414925902,
+                -0.6814428987227102,
+                3.666332564474222
+            ],
+            "rotation_quaternion": [
+                -0.25937012896576217,
+                0.6575986845707554,
+                0.25916366777664906,
+                -0.6581225566379338
+            ],
+            "rotation_euler": [
+                1.5715926535897933,
+                0.7508302898193411,
+                3.141592653589793
+            ]
+        },
+        {
+            "type": "F",
+            "translation": [
+                -0.12,
+                0.0,
+                0.1744
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                -1.0,
+                3.671320020249565
+            ],
+            "rotation_quaternion": [
+                -0.26177770752042984,
+                0.0,
+                0.0,
+                -0.9651281945137383
+            ],
+            "rotation_euler": [
+                3.141592653589793,
+                0.5297273666597715,
+                3.141592653589793
+            ]
+        },
+        {
+            "type": "O",
+            "translation": [
+                0.054400000000000004,
+                0.0,
+                -0.24
+            ],
+            "rotation": [
+                -0.5623072952001416,
+                -0.6059018319130214,
+                -0.5627552539507255,
+                4.231794214010662
+            ],
+            "rotation_quaternion": [
+                -0.5185042677799885,
+                -0.48081493302200784,
+                -0.5180915332522578,
+                -0.4811979713686506
+            ],
+            "rotation_euler": [
+                1.569999999999995,
+                1.4961961269333062,
+                3.7240297702200014e-15
+            ]
+        },
+        {
+            "type": "P",
+            "translation": [
+                0.054400000000000004,
+                0.0,
+                -0.12
+            ],
+            "rotation": [
+                0.05758273101724292,
+                -0.9966760622662976,
+                0.057628603956224655,
+                4.709855835685969
+            ],
+            "rotation_quaternion": [
+                -0.7062106123566828,
+                0.04076867811155836,
+                -0.7056484617213231,
+                0.04080115623564764
+            ],
+            "rotation_euler": [
+                1.5700000000000003,
+                -0.11542123318668045,
+                6.98537204730351e-18
+            ]
+        }
+    ]
+}
