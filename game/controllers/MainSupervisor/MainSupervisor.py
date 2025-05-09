@@ -43,6 +43,8 @@ from typing import Sequence, cast
 
 from controller.wb import wb
 
+from connection import Connection
+
 class GameState(Enum):
     MATCH_NOT_STARTED = 1
     MATCH_RUNNING = 2
@@ -168,6 +170,29 @@ class Erebus(Supervisor):
         self.rws.send("currentWorld", self._get_current_world())
 
         self.rws.send("update", f"0,0,{self.max_time},0")
+
+        # Connection
+        self.connection = Connection()
+        self.connection.on_client_connected(self.client_connected)
+        self.connection.on_message_received(self.handle_message)
+    
+    def client_connected(self):
+        self.connection.send_binary(bytes(self._get_current_world(), "utf8"))
+
+    def handle_message(self, type, data):
+        if type == 0:
+            map_name = data.decode("utf8")
+            self.worldLoad(map_name)
+        elif type == 1:
+            self._game_state = GameState.MATCH_RUNNING
+            self.rws.update_history("runPressed")
+        elif type == 2:
+            idx = int.from_bytes(data, "little")
+            subhistory = self.robot_obj.history.master_history[idx:]
+            self.connection.send_json(subhistory)
+        else:
+            # Mensaje desconocido!
+            print(f"Recibí un mensaje de tipo {type} con data {data}")
 
     def wwiReceiveText(self) -> Optional[str]:
         """
