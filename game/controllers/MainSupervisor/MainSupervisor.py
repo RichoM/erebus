@@ -194,22 +194,13 @@ class Erebus(Supervisor):
             subhistory = self.robot_obj.history.master_history[idx:]
             self.connection.send_json(subhistory)
         elif type == 3:
-            if self._game_state == GameState.MATCH_FINISHED:
-                self.connection.send_json("Game finished")
-            else:
-                self.connection.send_json("Game not finished")
-            """From here, this is just useful data
-             I think we could use in the future :)"""
-        elif type == 4: # Final Score
-            self.connection.send_json(self.robot_obj.get_score())
-        elif type == 5: # Game Time
-            self.connection.send_json(self.max_time - int(self.time_elapsed))
-        elif type == 6: # Map correctness
-            self.connection.send_json(self.robot_obj.map_score_percent)
-        elif type == 7: # Map score
-            self.connection.send_json(self.robot_obj.map_data)
-        elif type == 8: # Exit bonus
-            pass #TODO (Martu): Evaluate if exit bonus first, then send it
+            self.connection.send_json({
+                "game_state": self._game_state,
+                "final_score": self.robot_obj.get_score(),
+                "time_elapsed": self.time_elapsed,
+                "map_correctness": self.robot_obj.map_score_percent
+                #TODO (Martu): Evaluate if exit bonus first, then send it
+            })
         else:
             # Mensaje desconocido!
             print(f"Recibí un mensaje de tipo {type} con data {data}")
