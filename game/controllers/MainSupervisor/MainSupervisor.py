@@ -197,7 +197,7 @@ class Erebus(Supervisor):
             self.connection.send_json({
                 "game_state": self._game_state,
                 "final_score": self.robot_obj.get_score(),
-                "time_elapsed": self.time_elapsed,
+                "time_elapsed": round(self.time_elapsed, 2),
                 "map_correctness": self.robot_obj.map_score_percent
                 #TODO (Martu): Evaluate if exit bonus first, then send it
             })
