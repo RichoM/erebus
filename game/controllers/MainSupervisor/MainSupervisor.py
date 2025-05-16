@@ -174,6 +174,8 @@ class Erebus(Supervisor):
         # LOP AMOUNT
         self.lop_amount: int = 0
 
+        self.miss_ident_count: int = 0
+
         # Connection
         self.connection = Connection()
         self.connection.on_client_connected(self.client_connected)
@@ -199,7 +201,8 @@ class Erebus(Supervisor):
                 "game_state": self._game_state,
                 "final_score": self.robot_obj.get_score(),
                 "time_elapsed": round(self.time_elapsed, 2),
-                "map_correctness": self.robot_obj.map_score_percent
+                "map_correctness": self.robot_obj.map_score_percent,
+                "miss_identification_count": self.miss_ident_count
                 #TODO (Martu): Evaluate if exit bonus first, then send it
             })
         else:
@@ -299,7 +302,7 @@ class Erebus(Supervisor):
         
         # Update history with event
         self.robot_obj.increase_score(f"Lack of Progress {suffix}", -5)
-        # self.lop_amount += 1
+        self.lop_amount += 1
 
         # Update the camera position since the robot has now suddenly moved
         if self.config.automatic_camera and self._camera.wb_viewpoint_node:
@@ -591,6 +594,7 @@ class Erebus(Supervisor):
         if misidentification:
             self.robot_obj.increase_score(f"Misidentification of {name}",
                                           -5)
+            self.miss_ident_count += 1
 
     def _process_message(self, robot_message: list[Any]) -> None:
         """Processes the messages recieved from the competitor's robot's emitter
