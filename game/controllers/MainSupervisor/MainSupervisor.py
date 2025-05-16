@@ -188,6 +188,7 @@ class Erebus(Supervisor):
             self.worldLoad(map_name)
         elif type == 1:
             self._game_state = GameState.MATCH_RUNNING
+            self.simulation_mode = self.SIMULATION_MODE_FAST
             self.rws.update_history("runPressed")
         elif type == 2:
             idx = int.from_bytes(data, "little")
