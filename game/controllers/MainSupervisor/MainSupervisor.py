@@ -63,7 +63,7 @@ class Erebus(Supervisor):
 
         # Version info
         self._stream = 24
-        self.version = "24.1.0"
+        self.version = "25.0.0"
 
         # Start controller uploader
         uploader: Thread = Thread(target=ControllerUploader.start, daemon=True)
@@ -176,6 +176,14 @@ class Erebus(Supervisor):
 
         self.miss_ident_count: int = 0
 
+        self.signs: dict = {"H": 0,
+                            "S": 0,
+                            "U": 0,
+                            "C": 0,
+                            "F": 0,
+                            "O": 0,
+                            "P": 0}
+
         # Connection
         self.connection = Connection()
         self.connection.on_client_connected(self.client_connected)
@@ -201,8 +209,16 @@ class Erebus(Supervisor):
                 "game_state": self._game_state,
                 "final_score": self.robot_obj.get_score(),
                 "time_elapsed": round(self.time_elapsed, 2),
+                "lop_amount": self.lop_amount,
                 "map_correctness": self.robot_obj.map_score_percent,
-                "miss_identification_count": self.miss_ident_count
+                "miss_identification_count": self.miss_ident_count,
+                "P_count": self.signs["P"],
+                "H_count": self.signs["H"],
+                "S_count": self.signs["S"],
+                "U_count": self.signs["U"],
+                "C_count": self.signs["C"],
+                "F_count": self.signs["F"],
+                "O_count": self.signs["O"]
                 #TODO (Martu): Evaluate if exit bonus first, then send it
             })
         else:
@@ -590,6 +606,9 @@ class Erebus(Supervisor):
 
             self.robot_obj.victim_identified = True
             nearby_issue.identified = True
+
+            # Escribir en el diccionario de signs
+            self.signs[est_vic_type] += 1
 
         if misidentification:
             self.robot_obj.increase_score(f"Misidentification of {name}",
