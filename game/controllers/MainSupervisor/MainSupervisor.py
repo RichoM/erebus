@@ -197,6 +197,7 @@ class Erebus(Supervisor):
             map_name = data.decode("utf8")
             self.worldLoad(map_name)
         elif type == 1:
+            self._max_real_world_time = self.max_time * 10
             self._game_state = GameState.MATCH_RUNNING
             self.simulation_mode = self.SIMULATION_MODE_FAST
             self.rws.update_history("runPressed")
