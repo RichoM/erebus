@@ -197,6 +197,12 @@ class Erebus(Supervisor):
             map_name = data.decode("utf8")
             self.worldLoad(map_name)
         elif type == 1:
+            self._map_ans.writeJSON(self._get_current_world() + "_map.json")
+            with open(f"{self._get_current_world()}_expected.txt", "w") as f:
+                for row in self._map_sol:
+                    for col in row:
+                        f.write(col)
+                    f.write("\n")
             self._max_real_world_time = self.max_time * 10
             self._game_state = GameState.MATCH_RUNNING
             self.simulation_mode = self.SIMULATION_MODE_FAST
@@ -660,6 +666,13 @@ class Erebus(Supervisor):
                     pretty_print_map(self._map_sol)
                     Console.log_debug("Submitted map matrix")
                     pretty_print_map(self.robot_obj.map_data)
+
+                # NOTE(Richo): Write the submitted map matrix to a file
+                with open(f"{self._get_current_world()}_actual.txt", "w") as f:
+                    for row in self.robot_obj.map_data:
+                        for col in row:
+                            f.write(col)
+                        f.write("\n")
 
                 map_score: float = MapScorer.calculateScore(
                     self._map_sol, self.robot_obj.map_data
